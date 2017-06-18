@@ -93,7 +93,7 @@ public class QYo extends AbstractVerticle {
             context.response()
                 .putHeader("content-type", "application/json;charset=UTF-8")
                 .end(
-                        new JsonObject().put("message", "👋 "+ name).toString()
+                    new JsonObject().put("message", "👋 hey "+ name + " 😃").toString()
                 );
         });
 

@@ -1,1 +1,9 @@
-{"deploy": {"jarName": "qyo-1.0-SNAPSHOT-fat.jar"}}
+{
+  "build": {
+    "type": "maven",
+    "goal": "package"
+  },
+  "deploy": {
+    "jarName": "target/qyo-1.0-SNAPSHOT-fat.jar"
+  }
+}
